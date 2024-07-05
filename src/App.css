@@ -1,0 +1,84 @@
+/* styles.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Improved font */
+  }
+  
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Full viewport height */
+    background-color: #e9ecef;
+  }
+  
+  .form-container {
+    background: linear-gradient(145deg, #ffffff, #e6e6e6); /* Subtle gradient background */
+    padding: 30px;
+    border-radius: 12px; /* Increased border radius */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Larger shadow for better effect */
+    max-width: 450px;
+    width: 100%;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px; /* Added margin for spacing */
+  }
+  
+  .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px; /* Added padding for better spacing */
+    width: 100%; /* Full width of the container */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25); /* Enhanced focus shadow */
+    outline: none; /* Remove default outline */
+  }
+  
+  .form-text {
+    font-size: 0.9em;
+    color: #6c757d; /* Lighter text color for form text */
+    margin-top: 5px; /* Added margin for spacing */
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* More padding for better button size */
+    border-radius: 5px; /* Rounded corners */
+    width: 450px;
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow */
+    cursor: pointer; /* Pointer cursor */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced hover shadow */
+  }
+  
+  .btn-primary:active {
+    background-color: #004085;
+    border-color: #002752;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Active state shadow */
+    transform: translateY(1px); /* Slightly depress button */
+  }
+  
+.already{
+    font: 1em sans-serif;
+    text-align: center;
+    font-size: large;
+    margin-top: 5px;
+    background-color: #4d5359;
+    color:rgb(231, 241, 240)
+}
